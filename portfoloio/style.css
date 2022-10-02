@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/82/68/eb/8268eb7011b7e232f63a6d3af2104d4b.jpg");
+  background-color: #cccccc;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #3409f5;
+  transition: 0.5s ease;
+}
+
+/* Main Container height*/
+.main-container {
+  height: 100vh;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  width: auto;
+  height: 100vh;
+}
+
+/* About Section */
+.about {
+  background: #31523b;
+  border-radius: 0.5rem;
+}
+
+.card {
+  border-bottom: 8px solid #090df5;
+}
+
+/* Social Media Section */
+#social-media {
+  background: #483152;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #0954f5;
+  border-radius: 0.5rem;
+}
